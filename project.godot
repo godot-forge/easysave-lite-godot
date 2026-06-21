@@ -1,0 +1,18 @@
+; Engine configuration file.
+; EasySave Lite demo project — Godot 4.4+
+
+config_version=5
+
+[application]
+
+config/name="EasySave Lite Demo"
+run/main_scene="res://demo/demo.tscn"
+config/features=PackedStringArray("4.4", "Forward Plus")
+
+[autoload]
+
+EasySave="*res://addons/easy_save/easy_save.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/easy_save/plugin.cfg")
